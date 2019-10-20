@@ -54,3 +54,7 @@ RUN pip install fbprophet==0.5
 # Add common python libraries
 ADD requirements.txt /var/requirements.txt
 RUN pip install -r /var/requirements.txt
+
+# Install keplergl extensions
+# https://github.com/keplergl/kepler.gl/blob/master/docs/keplergl-jupyter/user-guide.md#install
+RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager keplergl-jupyter
