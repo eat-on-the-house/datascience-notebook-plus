@@ -8,3 +8,6 @@ keplergl==0.1.2
 presto-python-client==0.7.0
 kubernetes==10.0.1
 pandas-summary==0.0.7
+plotly==4.2.1
+pandas-profiling 
+pyhive
